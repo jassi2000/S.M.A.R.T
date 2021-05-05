@@ -1,0 +1,86 @@
+@media (min-width:1145px) {
+    
+
+.Link{
+    width: 8%;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    padding-top: 5%;
+}
+.LinkPara{
+    color: white;
+    margin-top: 0%;
+}
+.Link2{
+    padding-left: 8%;
+}
+.ourlogo{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 2%;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+img.Calcicomp , img.ShortandSwing {
+    width: 400px;
+    height: 400px;
+    margin: 1% 3%;
+    border-radius: 30px;
+      opacity: 0.85;
+  transition: 0.35s;
+
+}
+img.Calcicomp{
+    box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+}
+img.ShortandSwing{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 100%), 0 6px 20px 0 rgb(0 0 0 / 100%);
+    
+}
+img.Calcicomp:hover
+{
+    opacity:1;
+    border: 3px solid rgb(0 255 0);
+}
+img.ShortandSwing:hover{
+    opacity:1;
+    border: 5px solid rgb(0 0 0);
+}
+}
+@media (min-width:767px) and (max-width:1144px){
+    .Link{
+        width: 11%;
+        background-color: black;
+        height: 100%;
+        overflow: hidden;
+        position: fixed; 
+        padding-top: 5%;
+    }   
+    .LinkPara{
+        color: white;
+        margin-top: 0%;
+    }
+    .Link2{
+        padding-left: 11%;
+    }
+    .ourlogo{
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        margin: 2%;
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+    img.Calcicomp ,img.ShortandSwing {
+        width: 40%;
+        margin: 1% 3%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+      opacity: 0.85;
+  transition: 0.35s;
+
+    }
+    img.Calcicomp:hover , img.ShortandSwing:hover{
+        opacity:1;
+        border: 3px solid rgb(0 255 0);
+    }
+}

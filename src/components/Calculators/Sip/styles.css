@@ -1,0 +1,15 @@
+.centerdiv{
+    text-align: -webkit-center;
+    display: flex;
+}
+.chart{
+    width:100%;
+    height: 100%;
+}
+.datadisplay{
+    width: 100%;
+    display: flex;
+}
+.typocss{
+    width: 50%;
+}
