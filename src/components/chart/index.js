@@ -20,7 +20,6 @@ export default function ComboChart(props){
         <div>
         <p className="company-desc">{props.data.description}</p>
         <LineGraph datas={dataofstock} sym={props.data}/>
-
         </div>
     )
 }

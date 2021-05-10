@@ -362,8 +362,8 @@ p.company-desc {
         width: 75%;
     }
     .Homelogo img{
-        margin: 2%;
-        width: calc(48% - 4%);
+        margin: 3%;
+        width: calc(45% - 4%);
         border-radius: 30px;
         box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
           opacity: 0.95;
