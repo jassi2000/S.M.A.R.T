@@ -1,6 +1,13 @@
-@media (min-width:1145px) {
-    
-
+.MuiTablePagination-root{
+    overflow: unset !important;
+}
+.marq{
+    font-size: large;
+    color: black;
+    font-weight: 500;
+    font-family: monospace;
+}
+@media (min-width:1144px) {
 .Link{
     width: 8%;
     background-color: black;
@@ -27,28 +34,74 @@ img.Calcicomp , img.ShortandSwing {
     height: 400px;
     margin: 1% 3%;
     border-radius: 30px;
-      opacity: 0.85;
-  transition: 0.35s;
-
+      opacity: 0.90;
+  transition: 0.15s;
+  box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
 }
-img.Calcicomp{
-    box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
-}
-img.ShortandSwing{
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 100%), 0 6px 20px 0 rgb(0 0 0 / 100%);
-    
+.MuiAutocomplete-root.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+    width: 85% !important;
+    margin: 30px 3% !important;
 }
 img.Calcicomp:hover
 {
     opacity:1;
-    border: 3px solid rgb(0 255 0);
+    border: 5px solid rgb(0 255 0);
+}
+img.ShortandSwing{
+    border: 3px solid rgb(0 0 0);
 }
 img.ShortandSwing:hover{
     opacity:1;
     border: 5px solid rgb(0 0 0);
 }
+.Homelogo img{
+    margin: 2%;
+    width: 25%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+      opacity: 0.95;
+  transition: 0.15s;
+  border: 4px solid rgb(0 0 0);
 }
-@media (min-width:767px) and (max-width:1144px){
+.Homelogo img:hover{
+    opacity:1;
+    border: 6px solid rgb(0 0 0);
+}
+.Link-mobile{
+    display: none;
+}
+p.company-desc {
+    width: 85%;
+    margin: 1% 3%;
+    text-align: left;
+    font-family: monospace;
+    font-weight: 500;
+  }
+  .BooksFrontDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .BooksFrontDivInner img{
+    width: 70%;
+  height:300px;
+  padding:6%;
+  }
+  .BooksFrontDivInner{
+    width:27%;
+    height: 27%;
+    margin:0% 3%;
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:3%;
+  }
+  th.MuiTableCell-root.MuiTableCell-body, td.MuiTableCell-root.MuiTableCell-body{
+    font-size: 17px !important;
+    }
+}
+@media (min-width:767px) and (max-width:1144px)
+{
     .Link{
         width: 11%;
         background-color: black;
@@ -83,4 +136,338 @@ img.ShortandSwing:hover{
         opacity:1;
         border: 3px solid rgb(0 255 0);
     }
+    .Homelogo img{
+        margin: 2%;
+        width: 40%;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+        opacity: 0.9;
+        transition: 0.15s;
+        border: 3px solid rgb(0 0 0);
+    }
+    .Homelogo img:hover{
+        opacity:1;
+        border: 5px solid rgb(0 0 0);
+    }
+    .Link-mobile{
+        display: none;
+    }
+    .MuiTypography-h4{
+        font-size: 1.5rem !important;
+    }
+    .MuiTypography-h6
+    {
+        font-size: 1rem !important;
+    }
+    .BooksFrontDiv{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .BooksFrontDivInner img{
+        width: 85%;
+      height:220px;
+      padding:5%;
+      }
+      .BooksFrontDivInner{
+        width:29%;
+        margin:0% 2%;
+        border:1px solid white;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom:3%;
+      }
+      th.MuiTableCell-root.MuiTableCell-body, td.MuiTableCell-root.MuiTableCell-body{
+        font-size: 14px !important;
+        }
+        .MuiTypography-body1{
+            font-size: 0.9rem !important;
+        }
+        .MuiBox-root{
+            padding: 24px 0px !important;
+        }
+        p.company-desc {
+            width: 85%;
+            margin: 1% 4%;
+            text-align: left;
+            font-family: monospace;
+            font-weight: 500;
+          }
+          .MuiAutocomplete-root.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+            width: 85% !important;
+            margin: 30px 4% !important;
+        }
+}
+@media (min-width:500px) and (max-width:767px) {
+    .Link{
+        display: none;
+    }
+    .Link-mobile{
+        display: flex;
+        background-color: black;
+        width: 100%;
+        margin: 2% 0%;
+    }
+    .LinkPara{
+        color: white;
+        margin-top: 0%;
+        font-size: 10px;
+    }
+    .Link2{
+        width: 100%;
+    }
+    .Link-mobile div {
+        height: 50px;
+        width: 12vw;
+    }
+    .ourlogo{
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        margin: 2%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        width: 75%;
+    }
+    .Homelogo img{
+        margin: 2%;
+        width: calc(40% - 20px);
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+          opacity: 0.95;
+      transition: 0.15s;
+      border: 3px solid rgb(0 0 0);
+    }
+    .Homelogo img:hover{
+        opacity:1;
+        border: 5px solid rgb(0 0 0);
+    }
+    /* Books*/
+    .BooksFrontDiv{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .BooksFrontDivInner img{
+        width: 85%;
+      height:180px;
+      padding:5%;
+      }
+      .BooksFrontDivInner{
+        width:29%;
+        margin:0% 2%;
+        border:1px solid white;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom:3%;
+      }
+      /*calculator and short swing home */
+      img.Calcicomp ,img.ShortandSwing {
+        width: 45%;
+        margin: 2% 25%;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+        opacity: 0.9;
+        transition: 0.15s;
+        }
+        img.Calcicomp:hover
+        {
+            opacity:1;
+            border: 5px solid rgb(0 255 0);
+        }
+        img.ShortandSwing{
+            border: 3px solid rgb(0 0 0);
+        }
+        img.ShortandSwing:hover{
+            opacity:1;
+            border: 5px solid rgb(0 0 0);
+        }
+        /*ontraday and positional calls */
+    th.MuiTableCell-root.MuiTableCell-body, td.MuiTableCell-root.MuiTableCell-body {
+        font-size: 12px !important;
+    }
+    /*category*/
+    .MuiBox-root{
+        padding: 24px 2px !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1 table.table.table-striped.table-bordered.table-hover thead tr th:nth-child(3) {
+        display:none;
+    }
+    p.MuiTypography-root.MuiTypography-body1 table.table.table-striped.table-bordered.table-hover tbody tr td:nth-child(3) {
+        display:none;
+    }
+    .MuiTypography-body1{
+        font-size: 0.75rem !important;
+    }
+    /*pdfview*/
+    .react-pdf__Document  .react-pdf__Page canvas.react-pdf__Page__canvas {
+        width:95% !important;
+        height: auto !important;
+        padding: 0% 2%;
+    }
+    /*search Stock*/
+    p.company-desc {
+        width: 90%;
+        margin: 0% 4%;
+        text-align: left;
+        font-family: monospace;
+        font-weight: 500;
+      }
+      .MuiAutocomplete-root.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        width: auto !important;
+        margin: 30px 4% !important;
+    }
+    p.market-cap {
+        margin-top: 4%;
+    }
+    /* News */
+    .MuiPaper-root.MuiCard-root.MuiPaper-elevation1 {
+        box-shadow: 0px 2px 1px -1px rgb(245 0 87), 1px 1px 1px 0px rgb(245 0 87), 1px 1px 4px 1px rgb(245 0 87) !important;
+    }
+    .MuiCardMedia-root {
+        height: 0px !important;
+    }
+    .MuiTypography-h4{
+        font-size: 1.25rem !important;
+    }
+    .MuiTypography-h6
+    {
+        font-size: .75rem !important;
+    }
+}
+
+@media (max-width:500px) {
+    .Link{
+        display: none;
+    }
+    .Link-mobile{
+        display: flex;
+        background-color: black;
+        position: relative;
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .LinkPara{
+        color: white;
+        margin-top: 0%;
+        font-size: 10px;
+        overflow-wrap: break-word;
+    }
+    .Link2{
+        width: 100%;
+    }
+    img.ourlogo{
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        margin: 2%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        width: 75%;
+    }
+    .Homelogo img{
+        margin: 2%;
+        width: calc(48% - 4%);
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+          opacity: 0.95;
+      transition: 0.15s;
+      border: 3px solid rgb(0 0 0);
+    }
+    .Link-mobile div {
+        height: 50px;
+        width: 12.60vw;
+    }
+    /* Search Stock*/
+    .MuiAutocomplete-root.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        width: auto !important;
+        margin: 30px 4% !important;
+    }
+    p.company-desc {
+        width: 95%;
+        margin: 5% 0%;
+        margin-right: 0%;
+        margin-left: 5%;
+        text-align: left;
+        font-family: monospace;
+        font-weight: 500;
+      }
+     /*News*/
+    .MuiPaper-root.MuiCard-root.MuiPaper-elevation1 {
+        box-shadow: 0px 2px 1px -1px rgb(245 0 87), 1px 1px 1px 0px rgb(245 0 87), 1px 1px 4px 1px rgb(245 0 87) !important;
+    }
+    .MuiCardMedia-root {
+        height: 0px !important;
+    }
+    .MuiTypography-h4{
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+    }
+    .MuiTypography-h6
+    {
+        font-size: .7rem !important;
+    }
+    /*category*/
+    .MuiBox-root{
+        padding: 24px 2px !important;
+        overflow: overlay;
+    }
+    p.MuiTypography-root.MuiTypography-body1 table.table.table-striped.table-bordered.table-hover thead tr th:nth-child(3),th:nth-child(4) {
+        display:none;
+    }
+    p.MuiTypography-root.MuiTypography-body1 table.table.table-striped.table-bordered.table-hover tbody tr td:nth-child(3),td:nth-child(4) {
+        display:none;
+    }
+    .MuiTypography-body1{
+        font-size: 0.75rem !important;
+    }
+    .MuiTab-root {
+        font-size: 0.7rem !important;
+    }
+    /*calculators and short swing home*/
+    img.Calcicomp ,img.ShortandSwing {
+        width: 45%;
+        margin: 2% 25%;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 255 0 / 100%), 0 6px 20px 0 rgb(0 255 0 / 100%);
+        opacity: 0.9;
+        transition: 0.15s;
+        }
+        img.Calcicomp:hover
+        {
+            opacity:1;
+            border: 5px solid rgb(0 255 0);
+        }
+        img.ShortandSwing{
+            border: 3px solid rgb(0 0 0);
+        }
+        img.ShortandSwing:hover{
+            opacity:1;
+            border: 5px solid rgb(0 0 0);
+        }
+        /*Books*/
+        .BooksFrontDiv{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+          }
+          .BooksFrontDivInner img{
+            width: 85%;
+          height:180px;
+          padding:5%;
+          }
+          .BooksFrontDivInner{
+            width: calc(48% - 2%);
+            margin:3% 2%;
+            border:1px solid white;
+            border-radius:10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom:3%;
+          }
+          /*pdfview*/
+          .react-pdf__Document  .react-pdf__Page canvas.react-pdf__Page__canvas {
+            width:95% !important;
+            height: auto !important;
+            padding: 0% 2%;
+        }
+        th.MuiTableCell-root.MuiTableCell-body, td.MuiTableCell-root.MuiTableCell-body {
+            font-size: 11px !important;
+        }
 }

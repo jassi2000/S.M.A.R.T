@@ -1,15 +1,68 @@
-.centerdiv{
-    text-align: -webkit-center;
-    display: flex;
-}
-.chart{
-    width:100%;
-    height: 100%;
-}
+
 .datadisplay{
     width: 100%;
     display: flex;
 }
 .typocss{
     width: 50%;
+}
+@media  (min-width:500px) and (max-width:767px) {
+    .MuiContainer-root.MuiContainer-maxWidthLg{
+        width: 98%;
+        color: black;
+        background: ivory;
+        border: 10px double;
+        border-radius: 50px
+    }
+    .chart canvas.chartjs-render-monitor {
+        height:45vh !important;
+            width:45vw !important;
+    }
+    .centerdiv{
+        text-align: -webkit-center;
+        display: flex;
+    }
+}
+@media (min-width:767px) and (max-width:1144px)
+{
+    .MuiContainer-root.MuiContainer-maxWidthLg{
+        width: 670px !important;
+        color: black;
+        background: ivory;
+        border: 10px double;
+        border-radius: 50px
+    }
+    .centerdiv{
+        text-align: -webkit-center;
+        display: flex;
+    }
+}
+@media (min-width:1144px) {
+    .MuiContainer-root.MuiContainer-maxWidthLg{
+        width: 850px !important;
+        color: black;
+        background: ivory;
+        border: 10px double;
+        border-radius: 50px
+    }
+    .centerdiv{
+        text-align: -webkit-center;
+        display: flex;
+    }
+}
+@media (max-width:500px) {
+    .centerdiv{
+        text-align: -webkit-center;
+    }
+    .chart canvas.chartjs-render-monitor {
+        height:40vh !important;
+        width:100% !important;
+    }
+    .centerdiv  div:first-child{
+        width:90%;
+    }
+    .centerdiv  div:first-child div:nth-child(4n){
+        display: none;
+    }
+    
 }

@@ -58,6 +58,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
     root: {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
+      margin: 2+"%" +" "+1+"%"
     },
   }));
 

@@ -12,16 +12,15 @@ import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 80+"%",
-    maxHeight:20+"%",
-    margin: 3+"%",
+    maxHeight:10+"%",
+    margin: 4+"%" + " "+5+"%",
     borderRadius: 20
   },
   media: {
     height: 350,
   },
   B:{
-    marginLeft : 40+"%"
+    margin : "auto"
   }
 });
 export default function MediaCard() {

@@ -87,7 +87,8 @@ export default function Lumsum(){
     },[year,percentage,investment,returnamount])
     const useStyles = makeStyles((theme) => ({
         root: {
-          width: 300 + theme.spacing(3) * 2,
+          width: 45+"vw",
+          marginRight: 2 + "vw"
         },
         margin: {
           height: theme.spacing(3),
@@ -127,7 +128,7 @@ export default function Lumsum(){
         <Typography variant="h5" gutterBottom align="center" display="inline" >{returnamount}  </Typography>
             </div>
             
-        <div className="chart"> <Doughnut data={data} /></div>
+        <div className="chart"> <Doughnut data={data} options={{padding:"0px",responsive:true,maintainAspectRatio:false}}/></div>
             </div>
             </Container>
         </div>

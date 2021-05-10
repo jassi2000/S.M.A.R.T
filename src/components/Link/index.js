@@ -38,6 +38,7 @@ import Sip from "../Calculators//Sip"
 import ShortandSwing from "../shortandswing"
 import Short from "../shortandswing/shortterm"
 import Swing from "../shortandswing/swing"
+import Home from "../Home"
 import {
     BrowserRouter as Router,
     Switch,
@@ -49,7 +50,7 @@ export default function Link1(){
     return(
         <Router>
         <div className="Link">
-        <Link to="/home"><div><HomeIcon style={{fontSize : 50, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
+        <Link to="/"><div><HomeIcon style={{fontSize : 50, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
         <Link to="/search"><div><SearchIcon style={{fontSize : 50 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
         <Link to="/categories"><div><CategoryIcon style={{fontSize : 50 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
         <Link to="/calculators">   <div> <ExposureIcon style={{fontSize : 50 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
@@ -60,7 +61,21 @@ export default function Link1(){
         </div>
         <div className="Link2">
         <img className="ourlogo" src={ourlogo}></img>
+        <marquee className="marq"> All our services and training programs are completely free of cost. The S.M.A.R.T Team will never call you or send you sms to pay for any service/ training program. Do not pay anyone any amount. S.M.A.R.T is not associated with any institute in Delhi/India. Beware of Fraud Institutes misusing our name and falsely representing us to sell their training programs/advisory services. </marquee>
+        <div className="Link-mobile">
+        <Link to="/"><div><HomeIcon style={{fontSize : 30, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
+        <Link to="/search"><div><SearchIcon style={{fontSize : 30 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
+        <Link to="/categories"><div><CategoryIcon style={{fontSize : 30 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
+        <Link to="/calculators">   <div> <ExposureIcon style={{fontSize : 30 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
+        <Link to="/intraday">   <div><ListIcon style={{fontSize : 30 , color: 'white'}}/> <p className="LinkPara"> Intraday</p></div></Link>
+        <Link to="/positionals"> <div><MenuIcon style={{fontSize : 30,color: 'white'}}/> <p className="LinkPara"> Positional </p></div></Link>
+        <Link to="/news"> <div><MenuBookIcon style={{fontSize : 30,color: 'white'}}/> <p className="LinkPara"> News</p></div></Link>
+        <Link to="/books"> <div><ImportContactsTwoToneIcon style={{fontSize : 30,color: 'white'}}/> <p className="LinkPara"> Books</p></div></Link>
+        </div>
         <Switch>
+        <Route exact path="/">
+            <Home />
+            </Route>
           <Route exact path="/search">
             <Search />
             </Route>

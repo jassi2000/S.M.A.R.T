@@ -43,7 +43,7 @@ useEffect(()=> {
            options: {
                //Customize chart options
                responsive: true,
-               maintainAspectRatio: true,
+               maintainAspectRatio: false,
                layout: {
                    padding: {
                        top: 5,
