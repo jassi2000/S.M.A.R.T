@@ -8,7 +8,7 @@ export default function ComboChart(props){
     console.log(props.data)
     useEffect(async()=>{
             console.log("hiff")
-            const url1 = 'http://api.marketstack.com/v1/eod?access_key=8a2c17e83a0c6516c98715bcf77ed1be&symbols='+ props.data.symbol;
+            const url1 = '//api.marketstack.com/v1/eod?access_key=8a2c17e83a0c6516c98715bcf77ed1be&symbols='+ props.data.symbol;
             const result = await axios(url1);
             const r = result.data;
             setdataofstock(r.data);

@@ -27,8 +27,8 @@ export default function MediaCard() {
   const classes = useStyles();
   const [apicomp,setapicomp] =useState([]);
   useEffect(async () => {
-    const result = await axios(
-      'http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=30d3ef10a68e45d49472ad91db7c6cc1 ',
+    const result = await axios( 
+      '//newsapi.org/v2/top-headlines?country=in&category=business&apiKey=30d3ef10a68e45d49472ad91db7c6cc1 ',
     );
       console.log(result)
     setapicomp(result.data.articles);
