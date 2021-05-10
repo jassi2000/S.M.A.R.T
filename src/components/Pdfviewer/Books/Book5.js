@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 import file from './HOW THE STOCK MARKET WORKS.pdf'
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const b="http://www.africau.edu/images/default/sample.pdf";
 export default function Book5() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);

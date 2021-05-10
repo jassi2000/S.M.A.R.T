@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 import file from './Investing-in-the-Stock-Market-A-Guide-for-Beginners.pdf'
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const b="http://www.africau.edu/images/default/sample.pdf";
 export default function Book6() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);

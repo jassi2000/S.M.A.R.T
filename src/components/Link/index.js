@@ -82,7 +82,7 @@ export default function Link1(){
             <Route exact path="/calculators">
             <Calculators />
             </Route>
-            <Route exact path="/calculators/sip">
+            <Route exact path="/calculators/sip">y
             <Sip />
             </Route>
             <Route exact path="/calculators/lumsum">

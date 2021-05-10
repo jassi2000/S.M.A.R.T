@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 import file from './BUILDING WEALTH IN THE STOCK MARKET.pdf'
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const b="http://www.africau.edu/images/default/sample.pdf";
 export default function Book2() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
