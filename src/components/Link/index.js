@@ -48,7 +48,7 @@ import {
 
 export default function Link1(){
     return(
-        <Router>
+        <Router basename={"/projects/S.M.A.R.T"}>
         <div className="Link">
         <Link to="/"><div><HomeIcon style={{fontSize : 50, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
         <Link to="/search"><div><SearchIcon style={{fontSize : 50 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
