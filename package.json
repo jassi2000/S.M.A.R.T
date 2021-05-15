@@ -1,6 +1,6 @@
 {
   "name": "stocktracker",
-  "homepage":"http://themarketnest.com/projects/S.M.A.R.T",
+  "homepage": "http://themarketnest.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "chart.js": "^2.9.4",
+    "jquery": "^3.6.0",
     "pdfobject": "^2.2.5",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",

@@ -1,8 +1,9 @@
 @media screen and (min-width:1144px) {
 
 .graphContainer {
-    width: 90%;
+    width: 88%;
     height: 50vh;
+    margin-left: 3%;
     background: white;
     padding: 30px 20px 10px 20px;
     border-radius: 10px;

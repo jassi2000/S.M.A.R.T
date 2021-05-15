@@ -48,17 +48,20 @@ import {
 
 export default function Link1(){
     return(
-        <Router basename={"/projects/S.M.A.R.T"}>
+        <Router>
+          <div className="Both-link-wrapper">
+          <div className="Link-wrapper">
         <div className="Link">
-        <Link to="/"><div><HomeIcon style={{fontSize : 50, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
-        <Link to="/search"><div><SearchIcon style={{fontSize : 50 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
-        <Link to="/categories"><div><CategoryIcon style={{fontSize : 50 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
-        <Link to="/calculators">   <div> <ExposureIcon style={{fontSize : 50 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
-        <Link to="/intraday">   <div><ListIcon style={{fontSize : 50 , color: 'white'}}/> <p className="LinkPara"> Intraday</p></div></Link>
-        <Link to="/positionals"> <div><MenuIcon style={{fontSize : 50,color: 'white'}}/> <p className="LinkPara"> Positional </p></div></Link>
-        <Link to="/news"> <div><MenuBookIcon style={{fontSize : 50,color: 'white'}}/> <p className="LinkPara"> News</p></div></Link>
-        <Link to="/books"> <div><ImportContactsTwoToneIcon style={{fontSize : 50,color: 'white'}}/> <p className="LinkPara"> Books</p></div></Link>
+        <Link to="/"><div><HomeIcon style={{fontSize : 45, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
+        <Link to="/search"><div><SearchIcon style={{fontSize : 45 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
+        <Link to="/categories"><div><CategoryIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
+        <Link to="/calculators">   <div> <ExposureIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
+        <Link to="/intraday">   <div><ListIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Intraday</p></div></Link>
+        <Link to="/positionals"> <div><MenuIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Positional </p></div></Link>
+        <Link to="/news"> <div><MenuBookIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> News</p></div></Link>
+        <Link to="/books"> <div><ImportContactsTwoToneIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Books</p></div></Link>
         </div>
+        <div className="Link2-wrapper">
         <div className="Link2">
         <img className="ourlogo" src={ourlogo}></img>
         <marquee className="marq"> All our services and training programs are completely free of cost. The S.M.A.R.T Team will never call you or send you sms to pay for any service/ training program. Do not pay anyone any amount. S.M.A.R.T is not associated with any institute in Delhi/India. Beware of Fraud Institutes misusing our name and falsely representing us to sell their training programs/advisory services. </marquee>
@@ -165,6 +168,9 @@ export default function Link1(){
             </Route>
             
         </Switch>
+        </div>
+        </div>
+        </div>
         </div>
         </Router>
     )
