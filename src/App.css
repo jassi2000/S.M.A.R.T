@@ -24,7 +24,10 @@
 .pdfview{
   text-align: -webkit-center;
 }
-
+.prevandnexthold{
+  display: flex;
+  text-align:center;
+}
 p.market-cap{
   font-family: monospace;
   padding-top:2%;

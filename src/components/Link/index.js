@@ -6,8 +6,10 @@ import ListIcon from '@material-ui/icons/List';
 import MenuIcon from '@material-ui/icons/Menu';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import ImportContactsTwoToneIcon from '@material-ui/icons/ImportContactsTwoTone';
+import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
+import $ from 'jquery'
 import "./styles.css"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Search from "../Search"
 import MarketCap from "../MarketCap"
 import MediaCard from "../News"
@@ -45,21 +47,33 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import { ImportantDevicesTwoTone } from '@material-ui/icons';
 
 export default function Link1(){
+
+useEffect(()=>{
+  $('.Link .Link-icons').on('click',function(ele) {
+    $(".Link-icons").each(function(){
+      $(this).addClass("notactive");
+      $(this).removeClass("active");
+    })
+    $(ele.currentTarget).removeClass("notactive").addClass("active");
+  });
+},[]);
     return(
         <Router>
           <div className="Both-link-wrapper">
           <div className="Link-wrapper">
         <div className="Link">
-        <Link to="/"><div><HomeIcon style={{fontSize : 45, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
-        <Link to="/search"><div><SearchIcon style={{fontSize : 45 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
-        <Link to="/categories"><div><CategoryIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
-        <Link to="/calculators">   <div> <ExposureIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
-        <Link to="/intraday">   <div><ListIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Intraday</p></div></Link>
-        <Link to="/positionals"> <div><MenuIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Positional </p></div></Link>
-        <Link to="/news"> <div><MenuBookIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> News</p></div></Link>
-        <Link to="/books"> <div><ImportContactsTwoToneIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Books</p></div></Link>
+        <Link to="/"><div className="Link-icons"><HomeIcon style={{fontSize : 45, color: 'white'}}/> <p className="LinkPara"> Home</p> </div></Link>
+        <Link to="/search"><div className="Link-icons">  <SearchIcon style={{fontSize : 45 , color: 'white'}}/>  <p className="LinkPara"> Stocks</p></div></Link>
+        <Link to="/categories"><div className="Link-icons"><CategoryIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Categories</p></div></Link>
+        <Link to="/calculators">   <div className="Link-icons"> <ExposureIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Calculators</p></div></Link>
+        <Link to="/intraday">   <div className="Link-icons"><ListIcon style={{fontSize : 45 , color: 'white'}}/> <p className="LinkPara"> Intraday</p></div></Link>
+        <Link to="/positionals"> <div className="Link-icons"><MenuIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Positional </p></div></Link>
+        <Link to="/news"> <div className="Link-icons"><MenuBookIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> News</p></div></Link>
+        <Link to="/books"> <div className="Link-icons"><ImportContactsTwoToneIcon style={{fontSize : 45,color: 'white'}}/> <p className="LinkPara"> Books</p></div></Link>
+        <Link to="/blogs"><div className="Link-icons"><ImportantDevicesTwoTone style={{fontSize : 45,color: 'white'}}/><p className="LinkPara">Blogs</p></div></Link>
         </div>
         <div className="Link2-wrapper">
         <div className="Link2">
@@ -85,7 +99,7 @@ export default function Link1(){
             <Route exact path="/calculators">
             <Calculators />
             </Route>
-            <Route exact path="/calculators/sip">y
+            <Route exact path="/calculators/sip">
             <Sip />
             </Route>
             <Route exact path="/calculators/lumsum">

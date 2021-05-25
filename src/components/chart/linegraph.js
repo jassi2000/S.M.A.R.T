@@ -27,7 +27,7 @@ export default function LineGraph (props) {
                     {
                         label: props.sym.name,
                         data: close,
-                        fill: true,
+                        fill: true,  
                         borderColor: "green"
                     },
                     // {

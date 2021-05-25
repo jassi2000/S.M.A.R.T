@@ -103,11 +103,11 @@ function TablePaginationActions(props) {
     rowsPerPage: PropTypes.number.isRequired,
   };
 
-const useStyles2 = makeStyles({
-  table: {
-    minWidth: 500,
-  },
-});
+// const useStyles2 = makeStyles({
+//   table: {
+//     minWidth: 500,
+//   },
+// });
 
 const rows = [
   createData('01 Apr 2021	','Buy Balkrishna Industries (1652-1657)','01-02 Weeks',1572,1814,'Open'),

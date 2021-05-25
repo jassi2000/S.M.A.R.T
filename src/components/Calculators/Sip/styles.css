@@ -22,6 +22,11 @@
         text-align: -webkit-center;
         display: flex;
     }
+    .Calculator-info{
+        width: 98%;
+        text-align: left;
+        margin: 4% auto;
+    }
 }
 @media (min-width:767px) and (max-width:1144px)
 {
@@ -36,6 +41,11 @@
         text-align: -webkit-center;
         display: flex;
     }
+    .Calculator-info{
+        width: 670px;
+        text-align: left;
+        margin: 4% auto;
+    }
 }
 @media (min-width:1144px) {
     .MuiContainer-root.MuiContainer-maxWidthLg{
@@ -48,6 +58,11 @@
     .centerdiv{
         text-align: -webkit-center;
         display: flex;
+    }
+    .Calculator-info{
+        width: 850px;
+        text-align: left;
+        margin: 4% auto;
     }
 }
 @media (max-width:500px) {

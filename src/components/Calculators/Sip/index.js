@@ -132,6 +132,49 @@ export default function Sip(){
         <div className="chart"> <Doughnut data={data} options={{padding:"0px",responsive:true,maintainAspectRatio:false}} /></div>
             </div>
             </Container>
+            <div className="Calculator-info">
+            <h2>SIP Calculator – Systematic Investment Plan Calculator</h2>
+<p>Prospective investors can think that SIPs and mutual funds are the same. However, SIPs are merely a method of investing in mutual funds, the other method being a lump sum. A SIP calculator is a tool that helps you determine the returns you can avail when parking your funds in such investment tools. Systematic Investment Plan or SIP is a process of investing a fixed sum of money in mutual funds at regular intervals. SIPs usually allow you to invest weekly, quarterly, or monthly.</p>
+
+<h2>What is a SIP Calculator?</h2>
+<p>A SIP calculator is a simple tool that allows individuals to get an idea of the returns on their mutual fund investments made through SIP. SIP investments in mutual funds have become one of the most popular investment options for millennials lately.
+<br/><br/>
+These mutual fund sip calculators are designed to give potential investors an estimate on their mutual fund investments. However, the actual returns offered by a mutual fund scheme varies depending on various factors. The SIP calculator does not provide clarification for the exit load and expense ratio (if any).
+<br/><br/>
+This calculator will calculate the wealth gain and expected returns for your monthly SIP investment. Indeed, you get a rough estimate on the maturity amount for any of your monthly SIP, based on a projected annual return rate.
+</p>
+<h2>How can a SIP return calculator help you?</h2>
+<p>SIPs are a more lucrative mode of investing funds compared to a lump sum amount according to several mutual fund experts. It helps you become financially disciplined and create a habit of savings that can benefit you in the future.
+<br/><br/>
+A SIP calculator online is a beneficial tool, which shows the estimated returns you will earn after the investment tenure.
+<br/><br/>
+Few of the benefits of SIP calculators include –
+</p>
+<ol>
+<li>Assists you to determine the amount you want to invest in.</li>
+<li>Tells you the total amount you have invested.</li>
+<li>Gives an estimated value of the returns.</li>
+</ol>
+<h2>How to use S.M.A.R.T’s systematic investment plan calculator?</h2>
+<p>
+You can use the SIP amount calculator from S.M.A.R.T within a few clicks.
+<br/><br/>
+Just enter the monthly invested amount (the amount for which you have started the SIP), the number of years for which you want to stay invested, and the expected rate of return.
+<br/><br/>
+As soon as you input the value, the calculator will show you the estimated amount you can avail after your investment tenure is complete.
+</p>
+<h2>Advantages of using S.M.A.R.T systematic investment plan calculator</h2>
+<p>
+S.M.A.R.T offers the best SIP calculator, which provides the following advantages –
+</p>
+<ul>
+<li>Plan your investment based on the amount and tenure.</li>
+<li>It helps you compute an estimation of the total value of investments at the end of your SIP tenure.</li>
+<li>Shows accurate results and helps you save time required during a manual calculation.</li>
+</ul>
+<p>A systematic investment plan calculator ensures that your savings portfolio is as per your requirements and financial needs.</p>
+
+        </div>
         </div>
     )
 }

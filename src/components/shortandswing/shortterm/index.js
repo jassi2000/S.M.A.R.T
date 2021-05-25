@@ -103,11 +103,11 @@ function TablePaginationActions(props) {
     rowsPerPage: PropTypes.number.isRequired,
   };
 
-const useStyles2 = makeStyles({
-  table: {
-    minWidth: 500,
-  },
-});
+// const useStyles2 = makeStyles({
+//   table: {
+//     minWidth: 500,
+//   },
+// });
 
 const rows = [
     createData('1 Apr 2021','Buy GNFC @304','01-02 Weeks',287,330,'Pending'),

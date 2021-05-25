@@ -6,8 +6,8 @@ import swing from "./2.png"
 export default function shortandswing(){
     return(
         <div className="ShortandSwing">
-            <Link to="/positionals/short-term"><img className="ShortandSwing" src={short}></img></Link>
-            <Link to="/positionals/swing"><img className="ShortandSwing" src={swing}></img></Link>
+            <Link to="/positionals/short-term"><img className="ShortandSwing" src={short} alt="ShortandSwing"></img></Link>
+            <Link to="/positionals/swing"><img className="ShortandSwing" src={swing} alt="Swing"></img></Link>
         </div>
     )
 }

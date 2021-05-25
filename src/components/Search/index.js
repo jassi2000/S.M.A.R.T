@@ -15,6 +15,7 @@ export default function Search() {
       style={{ width: 300, margin:30 }}
       onChange={(event,value)=>setselectedstock(value)}
        defaultValue={tickers[0]}
+       disableClearable={"false"}
       renderInput={(params) => <TextField {...params} label="Search Stock" variant="outlined" />}/>
       <ComboChart data={selectedstock} /> 
     </div>

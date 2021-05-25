@@ -98,7 +98,7 @@ export default function Lumsum(){
     return(
         <div>
           <Container>
-            <h1>LUMSUM Calculator</h1>
+            <h1>LUMP SUM Calculator</h1>
             <div className="centerdiv">   
             <div className={classes.root}>
                <Typography gutterBottom>Total investment (Rs.)</Typography>
@@ -131,6 +131,51 @@ export default function Lumsum(){
         <div className="chart"> <Doughnut data={data} options={{padding:"0px",responsive:true,maintainAspectRatio:false}}/></div>
             </div>
             </Container>
+            <div className="Calculator-info">
+              <p>Investments in Mutual Funds can be broadly classified into two types- lumpsum and SIP. A lumpsum investment is when the depositor invests a significant sum of money on a particular mutual fund scheme. SIP or Systematic Investment Plan, on the other hand, entails the investment of smaller amounts on a monthly basis.
+<br/><br/>
+Both these type of mutual fund investment strategies have their fair share of benefits. Lumpsum investments are particularly preferred by a majority of investors, as there are lesser variables involved and returns are generally on the higher side. To find out the estimated returns on your lumpsum mutual fund investment, you may use a mutual fund lumpsum calculator available online.</p>
+<h2>How can a Lump sum Calculator Help You?</h2>
+<p>Mutual fund investors can use this calculator to figure out the estimated returns on their investments. Before getting into the benefits of using this calculator, one must know the types of return for a lumpsum investment.
+</p>
+<ul>
+<li>Absolute return </li>
+<li>Total return</li>
+<li>Annualised return</li>
+<li>Point to point return</li>
+<li>Trailing return</li>
+<li>Rolling return</li>
+</ul>
+<p>It’s paramount that an investor understands all these types of returns in details to avail the maximum benefits from their mutual fund investments. 
+<br/><br/>
+Now that you are familiar with the type of returns, it’s time to delve into the benefits of using a lumpsum return calculator:
+</p>
+<ul>
+<li>This calculator provides you with the estimated returns for the whole investment period. You may calculate your investments’ 1-year, 3-year and 5-year returns using this calculator.</li>
+<li>It’s incredibly convenient and easy to use. Even a layperson can use this calculator with relative ease.</li>
+<li>It offers a reasonably accurate estimate. Note that mutual fund investments are subject to market risks, and cannot be predicted with pinpoint accuracy. </li>
+<li>An MF lumpsum calculator enables an investor to plan his/her finances better based on the estimated return they are most likely to receive at the end of their investment period.</li>
+</ul>    
+<h2>How to use S.M.A.R.T lumpsum calculator?</h2>
+<p>The lumpsum calculator available on the S.M.A.R.T website is easily navigable. Follow the steps mentioned below to calculate your ROI on mutual funds:
+</p>
+<ul>
+<li>Provide required variables at their designated slots. You may also use the slider to adjust values.</li>
+<li>The calculator will provide you with an estimated value in seconds.</li>
+</ul>
+<h2>Advantages of using S.M.A.R.T lumpsum calculator</h2>
+<p>
+A mutual fund lumpsum calculator is an incredibly convenient financial tool which comes with a host of benefits.
+</p>
+<ul>
+<li>Returns on mutual fund investments cannot be calculated accurately as they are subjected to market risks. A calculator provides you with the closest possible estimate.</li>
+<li>It enables you to plan your finances based on the estimated returns.</li>
+<li>It is an online tool, implying that you can use it at any time from any place. It eliminates time and space constraints.</li>
+<li>It saves your time and effort, as these calculations can take several minutes. Doing calculations manually for more than one variation can take hours.</li>
+</ul>
+<p>Lumpsum investments are one of the most widely availed investment vehicles, most of which have a time-proven history of yielding high returns. You may begin your investment with a smaller amount and increase it as you become more comfortable with the procedure.
+</p>
+            </div>
         </div>
     )
 }

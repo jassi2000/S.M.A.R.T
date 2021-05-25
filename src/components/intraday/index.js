@@ -103,11 +103,11 @@ function TablePaginationActions(props) {
     rowsPerPage: PropTypes.number.isRequired,
   };
 
-const useStyles2 = makeStyles({
-  table: {
-    minWidth: 500,
-  },
-});
+// const useStyles2 = makeStyles({
+//   table: {
+//     minWidth: 500,
+//   },
+// });
 
 const rows = [
   createData('12 Apr 2021','BUY','Buy Tata Steel @879','11:02 A.M.','11:24 A.M.',874.95,884,'Call Closed','Stop Loss'),
