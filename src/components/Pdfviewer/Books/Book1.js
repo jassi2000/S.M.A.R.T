@@ -80,13 +80,6 @@ export default function Book1() {
           <MenuItem value={40}>40</MenuItem>
           <MenuItem value={50}>50</MenuItem>
           <MenuItem value={60}>60</MenuItem>
-          <MenuItem value={70}>70</MenuItem>
-          <MenuItem value={80}>80</MenuItem>
-          <MenuItem value={90}>90</MenuItem>
-          <MenuItem value={100}>100</MenuItem>
-          <MenuItem value={110}>110</MenuItem>
-          <MenuItem value={120}>120</MenuItem>
-
         </Select>
       </FormControl>
         <button

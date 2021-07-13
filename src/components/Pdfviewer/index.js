@@ -23,24 +23,24 @@ export default function Pdfviewer(){
   console.log(img1)
   return(
     <div className="BooksFrontDiv">
-      <div className="BooksFrontDivInner"><Link to='/books/1'><div><img src={img1}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/2'><div><img src={img2}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/3'><div><img src={img3}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/4'><div><img src={img4}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/5'><div><img src={img5}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/6'><div><img src={img6}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/7'><div><img src={img7}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/8'><div><img src={img8}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/9'><div><img src={img9}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/10'><div><img src={img10}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/11'><div><img src={img11}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/12'><div><img src={img12}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/13'><div><img src={img13}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/14'><div><img src={img14}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/15'><div><img src={img15}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/16'><div><img src={img16}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/17'><div><img src={img17}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
-      <div className="BooksFrontDivInner"><Link to='/books/18'><div><img src={img18}  alt="Books cover not loaded"></img> <h4></h4></div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/1'><div><img src={img1}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/2'><div><img src={img2}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/3'><div><img src={img3}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/4'><div><img src={img4}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/5'><div><img src={img5}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/6'><div><img src={img6}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/7'><div><img src={img7}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/8'><div><img src={img8}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/9'><div><img src={img9}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/10'><div><img src={img10}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/11'><div><img src={img11}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/12'><div><img src={img12}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/13'><div><img src={img13}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/14'><div><img src={img14}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/15'><div><img src={img15}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/16'><div><img src={img16}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/17'><div><img src={img17}  alt="Books cover not loaded"></img> </div></Link></div>
+      <div className="BooksFrontDivInner"><Link to='/books/18'><div><img src={img18}  alt="Books cover not loaded"></img> </div></Link></div>
     </div>
   )
 }

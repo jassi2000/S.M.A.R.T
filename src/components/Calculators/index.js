@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 export default function Calci(){
     return(
         <div className="Calci">
-            <Link to="/calculators/sip"><img className="Calcicomp" src={one}></img></Link>
-            <Link to="/calculators/lumsum"><img className="Calcicomp" src={two}></img></Link>
+            <Link to="/calculators/sip"><img className="Calcicomp" src={one} alt="calc navigator"></img></Link>
+            <Link to="/calculators/lumsum"><img className="Calcicomp" src={two} alt="calc navigator"></img></Link>
         </div>
     )
 }
